@@ -24,29 +24,25 @@
     <script src="/client.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1>
-        A Dream of the Future
-      </h1>
-    </header>
-
     <main>
-      <p class="bold">Oh hi,</p>
+      <h2>This is a simple timestamp api</h2>
+      <p>
+        You pass a date in a general <i>YYYY-M-D</i> or Unix time and you get back JSON
+      </p>
       
-      <p>Tell me your hopes and dreams:</p>
-      
-      <form>
-        <input name="dream" type="text" maxlength="100" placeholder="Dreams!" aria-labelledby="submit-dream">
-        <button type="submit" id="submit-dream">Submit Dream</button>
-      </form>
-      
-      <section class="dreams">
-        <ul id="dreams"></ul>
-      </section>
+      What you're looking for is in <i>/api/timestamp/</i>
+      <p>
+        <strong>Directions:</strong>
+        <ul>
+          <li>Try using <code>/api/timestamp/2019-25-2</code></li>
+  
+          <li>Try using <code>/api/timestamp/1450137600</code></li>
+        </ul>
+      </p>
     </main>
 
     <footer>
-      Made with <a href="https://glitch.com">Glitch</a>!
+      Made with 💙 and <a href="https://glitch.com">Glitch</a>!
     </footer>
 
     <!-- include the Glitch button to show what the webpage is about and
